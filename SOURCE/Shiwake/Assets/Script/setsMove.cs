@@ -15,9 +15,6 @@ public class setsMove : MonoBehaviour {
 	private GameObject rightObj;
 	[SerializeField]
 	private GameObject hiyokoObj;
-	private right ri;
-	private hiyoko hiyo;
-	private left lf;
 	[SerializeField]
 	private GameObject resultObj;
 	private TimeResult Trs;
@@ -28,9 +25,6 @@ public class setsMove : MonoBehaviour {
 
 	void Awake(){
 		efSpa = efSpaObj.GetComponent<efectSpawner> ();
-		ri = rightObj.GetComponent<right> ();
-		lf = leftObj.GetComponent<left> ();
-		hiyo = hiyokoObj.GetComponent<hiyoko> ();
 		if (Application.loadedLevelName == "TimeAttack") {
 			resultObj = GameObject.Find ("TimeResult").gameObject;
 			Trs = resultObj.GetComponent<TimeResult> ();
@@ -79,9 +73,6 @@ public class setsMove : MonoBehaviour {
 			}
             SoundManager.Instance.PlaySE(1);
 			efSpa.good();
-			hiyo.srideLest ();
-			ri.sride ();
-			lf.sride ();
 			Destroy (gameObject);
 		} else {
 			if (Application.loadedLevelName == "TimeAttack") {
@@ -92,9 +83,6 @@ public class setsMove : MonoBehaviour {
 			}
             SoundManager.Instance.PlaySE(2);
 			efSpa.bad();
-			ri.sride ();
-			lf.sride ();
-			hiyo.srideLest ();
 			Destroy (gameObject);
 		}
 	}
@@ -108,9 +96,6 @@ public class setsMove : MonoBehaviour {
 			}
             SoundManager.Instance.PlaySE(1);
 			efSpa.good();
-			hiyo.srideRight ();
-			ri.sride ();
-			lf.sride ();
 			Destroy (gameObject);
 		} else {
 			if (Application.loadedLevelName == "TimeAttack") {
@@ -121,13 +106,11 @@ public class setsMove : MonoBehaviour {
 			}
             SoundManager.Instance.PlaySE(2);
 			efSpa.bad();
-			ri.sride ();
-			lf.sride ();
-			hiyo.srideRight ();
 			Destroy (gameObject);
 		}
 	}
 
+    //削除後ゲーム終了でなければ問題の表示
 	void OnDestroy(){
 		if (Application.loadedLevelName == "TimeAttack") {
 			if (Trs.getHiyoko () != 0) {

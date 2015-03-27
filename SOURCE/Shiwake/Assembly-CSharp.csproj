@@ -56,9 +56,6 @@
      <Compile Include="Assets\Script\TimeResult.cs" />
      <Compile Include="Assets\Script\efect.cs" />
      <Compile Include="Assets\Script\efectSpawner.cs" />
-     <Compile Include="Assets\Script\hiyoko.cs" />
-     <Compile Include="Assets\Script\left.cs" />
-     <Compile Include="Assets\Script\right.cs" />
      <Compile Include="Assets\Script\setsMove.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>

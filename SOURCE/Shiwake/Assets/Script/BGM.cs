@@ -3,13 +3,8 @@ using System.Collections;
 
 public class BGM : MonoBehaviour {
 
-	// Use this for initialization
+	// BGM再生
 	void Start () {
         SoundManager.Instance.PlayBGM(0);
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }

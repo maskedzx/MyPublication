@@ -5,12 +5,12 @@ public class efectSpawner : MonoBehaviour {
 	public GameObject goodObj;
 	public GameObject badObj;
 
-	// Use this for initialization
+	// 正解エフェクト生成
 	public void good () {
 		Instantiate (goodObj, this.transform.localPosition, this.transform.localRotation);
 	}
 	
-	// Update is called once per frame
+	// 不正解エフェクト生成
 	public void bad () {
 		Instantiate (badObj, this.transform.localPosition, this.transform.localRotation);
 	}

@@ -5,7 +5,7 @@ public class efect : MonoBehaviour {
 	[SerializeField]
 	private int cnt = 6;
 
-	// Update is called once per frame
+	// 正誤エフェクトの自壊処理
 	void Update () {
 		cnt--;
 		if (cnt <= 0) {

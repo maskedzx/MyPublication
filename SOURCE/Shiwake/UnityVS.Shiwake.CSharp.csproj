@@ -64,9 +64,6 @@
     <Compile Include="Assets\Script\TimeResult.cs" />
     <Compile Include="Assets\Script\efect.cs" />
     <Compile Include="Assets\Script\efectSpawner.cs" />
-    <Compile Include="Assets\Script\hiyoko.cs" />
-    <Compile Include="Assets\Script\left.cs" />
-    <Compile Include="Assets\Script\right.cs" />
     <Compile Include="Assets\Script\setsMove.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />

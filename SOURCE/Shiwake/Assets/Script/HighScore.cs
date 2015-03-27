@@ -20,6 +20,8 @@ public class HighScore : MonoBehaviour {
 		timeText = timeTextObj.GetComponent<Text> ();
 	}
 
+    //ハイスコアの表示
+
 	void Start () {
 		if ((highScore == 0) || (highScore == null)){
 			scoreText.text = "-";
@@ -32,6 +34,8 @@ public class HighScore : MonoBehaviour {
 			timeText.text = "" + highTime.ToString("F2");
 		}
 	}
+
+    //ハイスコアのリセット
 
 	public void reset(){
 		highScore = 0;
