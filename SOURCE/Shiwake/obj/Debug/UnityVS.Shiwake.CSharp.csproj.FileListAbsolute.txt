@@ -1,0 +1,11 @@
+C:\Users\User\マイ ゲーム\Unity\Shiwake\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\User\マイ ゲーム\Unity\Shiwake\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\User\マイ ゲーム\Unity\Shiwake\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\User\マイ ゲーム\Unity\Shiwake\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\User\マイ ゲーム\Unity\Shiwake\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\User\マイ ゲーム\Unity\Shiwake\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\User\マイ ゲーム\Unity\Shiwake\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\User\マイ ゲーム\Unity\Shiwake\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\User\マイ ゲーム\Unity\Shiwake\obj\Debug\UnityVS.Shiwake.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\User\マイ ゲーム\Unity\Shiwake\obj\Debug\Assembly-CSharp.dll
+C:\Users\User\マイ ゲーム\Unity\Shiwake\obj\Debug\Assembly-CSharp.pdb
