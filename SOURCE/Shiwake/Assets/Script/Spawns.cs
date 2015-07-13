@@ -5,12 +5,12 @@ public class Spawns : MonoBehaviour {
 	public GameObject[] Sets;
 	private int setsNum;
 
-	// Use this for initialization
+	// 最初の組み合わせ設定
 	void Awake () {
 		setsNum = Random.Range (0, Sets.Length - 1);
 	}
 	
-	// Update is called once per frame
+	// 出題メソッド
 	public void spawnsSet() {
 		setsNum = Random.Range (0, Sets.Length - 1);
 		Instantiate (Sets[setsNum], this.transform.localPosition, this.transform.localRotation);

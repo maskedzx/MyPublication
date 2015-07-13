@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BGM : MonoBehaviour {
 
-	// BGM再生
+	// ゲーム開始時にBGM再生
 	void Start () {
         SoundManager.Instance.PlayBGM(0);
 	}
